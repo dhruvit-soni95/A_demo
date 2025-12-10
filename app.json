@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Calgary Opera",
+    "slug": "calgary-opera",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "calgaryopera",
+    "deeplink": true,
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.calgaryopera.app"
+    },
+    "android": {
+      "package": "com.calgaryopera.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "jsEngine": "jsc"
+    },
+    "web": false,
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-web-browser",
+      "expo-secure-store"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "c66f50f9-7820-41c7-850e-12cfa6c1e4a3"
+      }
+    }
+  }
+}
