@@ -6,7 +6,6 @@
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "calgaryopera",
-    "deeplink": true,
     "userInterfaceStyle": "automatic",
     "newArchEnabled": false,
     "ios": {
@@ -21,7 +20,7 @@
       },
       "jsEngine": "jsc"
     },
-    "web": false,
+    "web": {},
     "plugins": [
       "expo-router",
       "expo-font",
