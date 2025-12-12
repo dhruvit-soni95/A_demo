@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Calgary Opera",
-    "slug": "calgary-opera",
+    "slug": "tessitura",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -34,8 +34,9 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "c66f50f9-7820-41c7-850e-12cfa6c1e4a3"
+        "projectId": "2fcd2bb5-be53-4711-a72c-ea2c70bca1f8"
       }
-    }
+    },
+    "owner": "paramsolutionss-organization"
   }
 }
